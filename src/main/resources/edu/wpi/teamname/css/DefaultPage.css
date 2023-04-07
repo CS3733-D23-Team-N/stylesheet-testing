@@ -1,0 +1,53 @@
+/* Default styling for all nodes
+
+How to apply this to a page:
+- Open the page in SceneBuilder
+- Click on the root node (top of the hierarchy)
+- Go to Properties -> JavaFX CSS -> Stylesheets
+- Find DefaultControls.css and save in SceneBuilder
+
+Once the stylesheet is applied to the root node, it will cascade down to all nodes on the page
+ */
+@import "DefaultControls.css";
+
+/* Applies to all nodes */
+* {
+    -fx-wrap-text: true;
+    -fx-spacing: 10px;
+}
+
+/* Applies to the root node of the page */
+.root {
+    -fx-min-width: 1280px;
+    -fx-min-height: 648px;
+    -fx-pref-width: 1280px;
+    -fx-pref-height: 648px;
+    -fx-max-width: 1280px;
+    -fx-max-height: 648px;
+    -fx-padding: 30px;
+    -fx-spacing: 10px;
+    -fx-background-color: app-grey;
+}
+
+/* Defined class to create a section with a white background*/
+.section {
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+}
+
+.h1,
+.h1.label .text {
+    -fx-font-size: 64px;
+}
+
+.h2,
+.h2.label .text {
+    -fx-font-size: 32px;
+}
+
+.sub,
+.sub.label .text {
+    -fx-font-size: 16px;
+}

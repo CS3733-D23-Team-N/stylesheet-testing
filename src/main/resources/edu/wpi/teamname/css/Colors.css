@@ -1,0 +1,15 @@
+/* Use this file to set the colors of the application*/
+
+* {
+    app-navy: #0F2C57;
+    app-yellow: #EDBF54;
+    app-red: #EC1010;
+    app-black: #1E1E1E;
+    app-blue: #2B65AC;
+    app-grey: #E9E9E9;
+
+    app-navy-hover: rgba(15, 44, 87, .1);
+    app-navy-selected: rgba(15, 44, 87, .2);
+    app-blue-hover: rgba(43, 101, 172, .1);
+    app-blue-selected: rgba(43, 101, 172, .2);
+}
