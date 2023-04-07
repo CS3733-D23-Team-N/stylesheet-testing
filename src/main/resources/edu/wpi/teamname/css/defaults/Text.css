@@ -1,0 +1,8 @@
+/* Default text of the application */
+
+.text,
+.label .text,
+.text-area {
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 24;
+}

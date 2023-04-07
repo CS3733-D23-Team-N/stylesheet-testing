@@ -1,0 +1,16 @@
+/* The blue-button style class is automatically assigned when a button's fx-id is set to one of the below options */
+
+@import "Text.css";
+
+.mfx-button {
+    -fx-background-color: app-navy !important;
+    -fx-text-fill: white !important;
+    -fx-background-radius: 10px !important;
+
+    -fx-min-width: 150px;
+    -fx-min-height: 50px;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 50px;
+    -fx-max-width: 150px;
+    -fx-max-height: 50px;
+}

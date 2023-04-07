@@ -1,0 +1,23 @@
+@import "Colors.css";
+
+.mfx-date-picker .mfx-icon-wrapper .mfx-ripple-generator,
+.mfx-date-picker .date-picker-popup .left-arrow .mfx-ripple-generator,
+.mfx-date-picker .date-picker-popup .left-arrow .mfx-ripple-generator {
+    -mfx-ripple-color: app-navy-1;
+}
+
+.mfx-date-picker:focus-within .icon {
+    -mfx-color: app-navy;
+}
+
+.mfx-date-picker .date-picker-popup .months-combo:focus-within,
+.mfx-date-picker .date-picker-popup .years-combo:focus-within {
+    -fx-background-color: app-navy-1;
+}
+
+
+
+.mfx-date-picker .date-picker-popup .months-combo .virtual-flow .mfx-combo-box-cell::selection .label,
+.mfx-date-picker .date-picker-popup .years-combo .virtual-flow .mfx-combo-box-cell::selection .label {
+    -fx-text-fill: app-navy;
+}

@@ -1,0 +1,25 @@
+/* All defaults for easy export */
+
+@import "Text.css";
+@import "MFXButton.css";
+@import "MFXComboBox.css";
+@import "MFXDatePicker.css";
+@import "MFXTextField.css";
+
+/* Applies to all nodes */
+* {
+    -fx-wrap-text: true;
+    -fx-spacing: 10px;
+}
+
+/* Applies to the root node of the page */
+.root {
+    -fx-min-width: 1280px;
+    -fx-min-height: 648px;
+    -fx-pref-width: 1280px;
+    -fx-pref-height: 648px;
+    -fx-max-width: 1280px;
+    -fx-max-height: 648px;
+    -fx-padding: 30px;
+    -fx-spacing: 10px;
+}

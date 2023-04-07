@@ -1,0 +1,25 @@
+@import "Colors.css";
+
+.mfx-combo-box {
+
+}
+
+.mfx-combo-box-cell .label .text {
+    -fx-font-size: 12;
+}
+
+.mfx-combo-box .caret .mfx-ripple-generator {
+    -mfx-ripple-color: app-navy-1;
+}
+
+.mfx-combo-box:focused .caret .mfx-font-icon {
+    -mfx-color: app-navy;
+}
+
+.mfx-combo-box-cell:hover {
+    -fx-background-color: app-navy-1;
+}
+
+.mfx-combo-box-cell:selected {
+    -fx-background-color: app-navy-2;
+}

@@ -11,10 +11,10 @@
 <VBox styleClass="root" stylesheets="@../css/DefaultPage.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wpi.teamname.controllers.HomeController">
    <children>
       <MFXButton styleClass="blue-button" />
-      <MFXComboBox />
-      <MFXDatePicker />
-      <MFXFilterComboBox />
-      <MFXPasswordField />
-      <MFXTextField />
+      <MFXComboBox fx:id="comboBox" />
+      <MFXDatePicker fx:id="datePicker" />
+      <MFXFilterComboBox fx:id="filterComboBox" />
+      <MFXPasswordField fx:id="passwordField" />
+      <MFXTextField fx:id="textField" />
    </children>
 </VBox>

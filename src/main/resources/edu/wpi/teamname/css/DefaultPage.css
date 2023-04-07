@@ -8,26 +8,8 @@ How to apply this to a page:
 
 Once the stylesheet is applied to the root node, it will cascade down to all nodes on the page
  */
-@import "DefaultControls.css";
+@import "defaults/Defaults.css";
 
-/* Applies to all nodes */
-* {
-    -fx-wrap-text: true;
-    -fx-spacing: 10px;
-}
-
-/* Applies to the root node of the page */
-.root {
-    -fx-min-width: 1280px;
-    -fx-min-height: 648px;
-    -fx-pref-width: 1280px;
-    -fx-pref-height: 648px;
-    -fx-max-width: 1280px;
-    -fx-max-height: 648px;
-    -fx-padding: 30px;
-    -fx-spacing: 10px;
-    -fx-background-color: app-grey;
-}
 
 /* Defined class to create a section with a white background*/
 .section {
