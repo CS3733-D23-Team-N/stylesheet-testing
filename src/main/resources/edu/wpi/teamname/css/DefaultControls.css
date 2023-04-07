@@ -11,7 +11,6 @@
 .text-area {
     -fx-font-family: 'Open Sans';
     -fx-font-size: 24px;
-    -fx-font-color: app-black;
 }
 
 /* Sizing all input fields except for text area */
@@ -30,33 +29,12 @@
     -fx-font-size: 12px;
 }
 
-.mfx-combo-box:focused,
-.text-area:focused,
-.mfx-date-picker:focused,
-.mfx-text-field:focused {
-    -fx-border-color: app-navy;
-}
-
-.caret .mfx-font-icon {
-    -mfx-color: app-navy;
-}
-
-.mfx-combo-box-cell:hover {
-    -fx-background-color: app-navy-hover;
-}
-
-.mfx-combo-box-cell:selected {
-    -fx-background-color: app-navy-selected;
-}
-
 /* The blue-button style class is automatically assigned when a button's fx-id is set to one of the below options */
 #selectButton,
 #cancelButton,
 #submitButton,
 #clearButton,
 .blue-button {
-    -fx-background-color: app-navy !important;
-    -fx-text-fill: white !important;
     -fx-background-radius: 10px !important;
 
     -fx-min-width: 150px;

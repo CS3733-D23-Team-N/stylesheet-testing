@@ -13,3 +13,32 @@
     app-blue-hover: rgba(43, 101, 172, .1);
     app-blue-selected: rgba(43, 101, 172, .2);
 }
+
+.mfx-combo-box:focus-within,
+.text-area:focus-within,
+.mfx-date-picker:focus-within,
+.mfx-text-field:focus-within {
+    -fx-border-color: app-navy;
+}
+
+.caret .mfx-font-icon {
+    -mfx-color: app-navy;
+}
+
+.mfx-combo-box-cell:hover {
+    -fx-background-color: app-navy-hover;
+}
+
+.mfx-combo-box-cell::selection {
+    -fx-background-color: app-navy-selected;
+}
+
+/* The blue-button style class is automatically assigned when a button's fx-id is set to one of the below options */
+#selectButton,
+#cancelButton,
+#submitButton,
+#clearButton,
+.blue-button {
+    -fx-background-color: app-navy !important;
+    -fx-text-fill: white !important;
+}
